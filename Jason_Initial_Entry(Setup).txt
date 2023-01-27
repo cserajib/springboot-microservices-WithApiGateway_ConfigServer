@@ -1,0 +1,27 @@
+At First start registry service -->Config service-->others services
+
+Runs with Java 17 or later (required for Spring 3.x)
+
+{
+    "employee": {
+        "id": 1,
+        "firstName": "Rajib",
+        "lastName": "Samanta",
+        "email": "raj@gmail.com",
+        "departmentCode": "IT001",
+        "organizationCode": "ABC_ORG"
+    },
+    "department": {
+        "id": 1,
+        "departmentName": "IT",
+        "departmentDescription": "IT Technology",
+        "departmentCode": "IT001"
+    },
+    "organization": {
+        "id": 1,
+        "organizationName": "ABC",
+        "organizationDescription": "ABC Technologies",
+        "organizationCode": "ABC_ORG",
+        "createdDate": "2023-01-27T03:25:50.447281"
+    }
+}
